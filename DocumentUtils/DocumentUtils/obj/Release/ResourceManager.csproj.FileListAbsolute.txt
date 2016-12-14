@@ -1,0 +1,10 @@
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\bin\Release\ResourceManager.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\bin\Release\ResourceManager.pdb
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\bin\Release\NLog.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\bin\Release\NLog.xml
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\obj\Release\ResourceManager.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\obj\Release\ResourceManager.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\obj\Release\ResourceManager.pdb
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\bin\Release\NLog.config
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\bin\Release\InvertedIndex.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\bin\Release\InvertedIndex.pdb

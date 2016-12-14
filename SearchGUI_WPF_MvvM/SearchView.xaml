@@ -1,0 +1,65 @@
+﻿<Window x:Class="SearchGUI_WPF_MvvM.SearchView"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:ignore="http://www.galasoft.ch/ignore"
+		xmlns:src="clr-namespace:SearchGUI_WPF_MvvM"
+		xmlns:data="clr-namespace:System.Data;assembly=System.Data"
+		mc:Ignorable="d ignore"
+		Title="Search" 
+		DataContext="{Binding SearchModel, Source={StaticResource Locator}}" d:DesignHeight="330" Width="410" Height="400">
+
+	<Window.Resources>
+		<ContextMenu x:Key="ItemContextMenu">
+			<MenuItem Header="More Info" Command="{Binding Path=DataContext.MoreInfo, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ListView}}" Background="WhiteSmoke" />
+		</ContextMenu>
+		<Style x:Key="Itemstyle" TargetType="{x:Type ListViewItem}">
+			<EventSetter Event="MouseDoubleClick" Handler="HandleDoubleClick" />
+			<Setter Property="ContextMenu" Value="{StaticResource ItemContextMenu}" />
+		</Style>
+	</Window.Resources>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="auto"></RowDefinition>
+			<RowDefinition Height="100*"></RowDefinition>
+			<RowDefinition Height="*"></RowDefinition>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+
+		</Grid.ColumnDefinitions>
+
+		<GroupBox Grid.Row="0" Grid.Column="0" Header="Search Options">
+			<StackPanel Orientation="Vertical" Margin="5">
+				<Label x:Name="label1" Content="Folder" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+				<StackPanel Orientation="Horizontal">
+					<TextBox x:Name="TextBoxFolderLocation" Text="{Binding FolderLocation}" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="23" Width="295"/>
+					<Button x:Name="BtnBrowse" Command="{Binding BrowseFileCommand}" Content="Browse" VerticalAlignment="Stretch" Height="23" HorizontalAlignment="Right" Width="75"/>
+				</StackPanel>
+
+				<Label x:Name="LabelSearchText" Content="Search Text" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24"/>
+				<TextBox x:Name="TextBoxSearchQuery" HorizontalAlignment="Stretch" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Text="{Binding SearchQuery, UpdateSourceTrigger=PropertyChanged}"/>
+
+				<Border Margin="0,10">
+					<CheckBox IsChecked="{Binding LoadDocumentContents}" x:Name="BtnSearchDocumentContents" Content="Search document contents" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="218"/>
+				</Border>
+                
+			</StackPanel>
+		</GroupBox>
+
+		<Grid Grid.Row="1" Grid.Column="0">
+			<ListView Name="SearchResultsView" ItemsSource="{Binding Path=SearchResults}" ItemContainerStyle="{StaticResource Itemstyle}">
+				<ListView.View>
+					<GridView>
+						<GridViewColumn Header="File" Width="Auto" DisplayMemberBinding="{Binding FileName}"/>
+						<GridViewColumn Header="Path" Width="Auto" DisplayMemberBinding="{Binding FileLocation}"/>
+						<GridViewColumn Header="Doc ID" Width="Auto" DisplayMemberBinding="{Binding DocId}"/>
+                        <GridViewColumn Header="TF-IDF" Width="Auto" DisplayMemberBinding="{Binding Score}"/>
+                        <GridViewColumn Header="Words" Width="Auto" DisplayMemberBinding="{Binding DisplayMatchedWords}"/>
+                    </GridView>
+				</ListView.View>
+			</ListView>
+		</Grid>
+	</Grid>
+</Window>

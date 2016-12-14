@@ -1,0 +1,5 @@
+C:\Users\James\Documents\Visual Studio 2015\Projects\SearchGUI_WPF_MvvM\StemmerNet\bin\Release\StemmerNet.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\SearchGUI_WPF_MvvM\StemmerNet\bin\Release\StemmerNet.pdb
+C:\Users\James\Documents\Visual Studio 2015\Projects\SearchGUI_WPF_MvvM\StemmerNet\obj\Release\StemmerNet.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\SearchGUI_WPF_MvvM\StemmerNet\obj\Release\StemmerNet.pdb
+C:\Users\James\Documents\Visual Studio 2015\Projects\SearchGUI_WPF_MvvM\StemmerNet\obj\Release\StemmerNet.csprojResolveAssemblyReference.cache

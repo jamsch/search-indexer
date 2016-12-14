@@ -1,0 +1,9 @@
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\bin\Debug\ResourceManager.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\bin\Debug\ResourceManager.pdb
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\bin\Debug\ClassLibrary2.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\bin\Debug\NLog.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\bin\Debug\ClassLibrary2.pdb
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\bin\Debug\NLog.xml
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\obj\Debug\ResourceManager.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\obj\Debug\ResourceManager.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\ResourceManager\ResourceManager\obj\Debug\ResourceManager.pdb

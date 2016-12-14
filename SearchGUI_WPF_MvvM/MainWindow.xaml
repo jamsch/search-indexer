@@ -1,0 +1,54 @@
+﻿<Window x:Class="SearchGUI_WPF_MvvM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ignore="http://www.galasoft.ch/ignore"
+        xmlns:nlog ="clr-namespace:NlogViewer;assembly=NlogViewer"
+        mc:Ignorable="d ignore"
+        Height="400"
+        Width="560"
+        Title="Main Window" 
+        DataContext="{Binding Main, Source={StaticResource Locator}}">
+    
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Skins/MainSkin.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <GroupBox Grid.Row="0" Header="Operations">
+            <StackPanel Orientation="Vertical">
+
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="BtnOpenSearchWindow" Content="Open search window" Width="130" Click="BtnOpenSearchWindow_Click" />
+                    <Button x:Name="BtnLoadIndex" Content="Load Index" Width="90" Command="{Binding LoadIndexCommand}"/>
+                    <Button x:Name="BtnSaveIndex" Content="Save Index" Width="90" Command="{Binding SaveIndexCommand}"/>
+                    <Button x:Name="BtnClearIndex" Content="Clear Index" Width="90" Command="{Binding ClearIndexCommand}"/>
+
+                    <Button x:Name="BtnDumpDocumentCount" Content="Dump document info" Width="130" Command="{Binding DumpDocumentInfoCommand}"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Grid.Row="1" Header="{Binding WelcomeTitle}">
+            <StackPanel Orientation="Vertical">
+                <CheckBox x:Name="chkBackgroundSending" Content="Send logs from background thread." Checked="BackgroundSending_Checked" IsChecked="False" Unchecked="BackgroundSending_Unchecked" />
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Header="Debug log" Grid.Row="2">
+            <nlog:NlogViewer x:Name="LogCtrl" MaxNumLogs="300" TimeWidth="AUTO" LoggerNameWidth="0" LevelWidth="auto" ExceptionWidth="auto" MessageWidth="auto" />
+        </GroupBox>
+
+
+    </Grid>
+</Window>

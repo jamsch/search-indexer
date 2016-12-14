@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchGUI_WPF_MvvM", "SearchGUI_WPF_MvvM\SearchGUI_WPF_MvvM.csproj", "{6CB5DAE1-C1FF-40DB-91F6-2DC4D0A70405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchUtils", "SearchUtils\SearchUtils.csproj", "{6C504FF2-4511-4E7E-B5CF-44B240DF3783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StemmerNet", "StemmerNet\StemmerNet.csproj", "{4D7C04B9-091E-4959-A9EF-89DEF341FF43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NlogViewer", "NLogViewer\NlogViewer\NlogViewer.csproj", "{C04E879D-287E-49B5-9933-42FC2EFF75F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchGUI_ASP", "SearchGUI_ASP\SearchGUI_ASP\SearchGUI_ASP.csproj", "{BBCB2E8A-3B3E-4132-A346-2FE52A47B071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexing", "Indexing\Indexing\Indexing.csproj", "{FD28FC3B-842B-4F14-BF1C-3DD6A69A7EF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentUtils", "DocumentUtils\DocumentUtils\DocumentUtils.csproj", "{56425E18-70E3-4DCD-AC43-4C3C36F2004B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CB5DAE1-C1FF-40DB-91F6-2DC4D0A70405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB5DAE1-C1FF-40DB-91F6-2DC4D0A70405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB5DAE1-C1FF-40DB-91F6-2DC4D0A70405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB5DAE1-C1FF-40DB-91F6-2DC4D0A70405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C504FF2-4511-4E7E-B5CF-44B240DF3783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C504FF2-4511-4E7E-B5CF-44B240DF3783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C504FF2-4511-4E7E-B5CF-44B240DF3783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C504FF2-4511-4E7E-B5CF-44B240DF3783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7C04B9-091E-4959-A9EF-89DEF341FF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7C04B9-091E-4959-A9EF-89DEF341FF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7C04B9-091E-4959-A9EF-89DEF341FF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7C04B9-091E-4959-A9EF-89DEF341FF43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C04E879D-287E-49B5-9933-42FC2EFF75F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04E879D-287E-49B5-9933-42FC2EFF75F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04E879D-287E-49B5-9933-42FC2EFF75F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04E879D-287E-49B5-9933-42FC2EFF75F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBCB2E8A-3B3E-4132-A346-2FE52A47B071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCB2E8A-3B3E-4132-A346-2FE52A47B071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCB2E8A-3B3E-4132-A346-2FE52A47B071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCB2E8A-3B3E-4132-A346-2FE52A47B071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD28FC3B-842B-4F14-BF1C-3DD6A69A7EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD28FC3B-842B-4F14-BF1C-3DD6A69A7EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD28FC3B-842B-4F14-BF1C-3DD6A69A7EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD28FC3B-842B-4F14-BF1C-3DD6A69A7EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56425E18-70E3-4DCD-AC43-4C3C36F2004B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56425E18-70E3-4DCD-AC43-4C3C36F2004B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56425E18-70E3-4DCD-AC43-4C3C36F2004B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56425E18-70E3-4DCD-AC43-4C3C36F2004B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

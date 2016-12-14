@@ -1,0 +1,8 @@
+c:\users\james\documents\visual studio 2015\Projects\ClassLibrary2\ClassLibrary2\bin\Release\ClassLibrary2.dll
+c:\users\james\documents\visual studio 2015\Projects\ClassLibrary2\ClassLibrary2\bin\Release\ClassLibrary2.pdb
+c:\users\james\documents\visual studio 2015\Projects\ClassLibrary2\ClassLibrary2\obj\Release\ClassLibrary2.dll
+c:\users\james\documents\visual studio 2015\Projects\ClassLibrary2\ClassLibrary2\obj\Release\ClassLibrary2.pdb
+C:\Users\James\Documents\Visual Studio 2015\Projects\ClassLibrary2\ClassLibrary2\bin\Release\NLog.config
+C:\Users\James\Documents\Visual Studio 2015\Projects\ClassLibrary2\ClassLibrary2\bin\Release\NLog.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\ClassLibrary2\ClassLibrary2\bin\Release\NLog.xml
+C:\Users\James\Documents\Visual Studio 2015\Projects\ClassLibrary2\ClassLibrary2\obj\Release\ClassLibrary2.csprojResolveAssemblyReference.cache

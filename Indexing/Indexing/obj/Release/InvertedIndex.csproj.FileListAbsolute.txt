@@ -1,0 +1,16 @@
+C:\Users\James\Documents\Visual Studio 2015\Projects\ClassLibrary2\ClassLibrary2\bin\Release\NLog.config
+C:\Users\James\Documents\Visual Studio 2015\Projects\ClassLibrary2\ClassLibrary2\bin\Release\ClassLibrary2.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\ClassLibrary2\ClassLibrary2\bin\Release\ClassLibrary2.pdb
+C:\Users\James\Documents\Visual Studio 2015\Projects\ClassLibrary2\ClassLibrary2\bin\Release\NLog.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\ClassLibrary2\ClassLibrary2\bin\Release\NLog.xml
+C:\Users\James\Documents\Visual Studio 2015\Projects\ClassLibrary2\ClassLibrary2\obj\Release\InvertedIndex.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Visual Studio 2015\Projects\ClassLibrary2\ClassLibrary2\obj\Release\ClassLibrary2.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\ClassLibrary2\ClassLibrary2\obj\Release\ClassLibrary2.pdb
+C:\Users\James\Documents\Visual Studio 2015\Projects\InvertedIndex\InvertedIndex\bin\Release\NLog.config
+C:\Users\James\Documents\Visual Studio 2015\Projects\InvertedIndex\InvertedIndex\bin\Release\InvertedIndex.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\InvertedIndex\InvertedIndex\bin\Release\InvertedIndex.pdb
+C:\Users\James\Documents\Visual Studio 2015\Projects\InvertedIndex\InvertedIndex\bin\Release\NLog.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\InvertedIndex\InvertedIndex\bin\Release\NLog.xml
+C:\Users\James\Documents\Visual Studio 2015\Projects\InvertedIndex\InvertedIndex\obj\Release\InvertedIndex.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Visual Studio 2015\Projects\InvertedIndex\InvertedIndex\obj\Release\InvertedIndex.dll
+C:\Users\James\Documents\Visual Studio 2015\Projects\InvertedIndex\InvertedIndex\obj\Release\InvertedIndex.pdb
